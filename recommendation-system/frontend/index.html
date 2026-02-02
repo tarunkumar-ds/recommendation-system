@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendation Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1>🎬 Movie Recommendation Engine</h1>
+    <p>Personalized movie picks based on your taste</p>
+
+    <div class="search-box">
+        <input type="number" id="userId" placeholder="Enter User ID (1–610)">
+        <button onclick="getRecommendations()">Get Recommendations</button>
+    </div>
+</header>
+
+<main class="container">
+    <h2 id="sectionTitle" class="hidden">Recommended For You</h2>
+    <div id="movies" class="movie-grid"></div>
+</main>
+
+<footer>
+    Built with Collaborative Filtering • FastAPI Backend
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
