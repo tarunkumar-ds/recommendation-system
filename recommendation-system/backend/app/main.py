@@ -33,3 +33,4 @@ def recommend(user_id: int):
         "recommended_movies": movie_titles
     }
 
+
